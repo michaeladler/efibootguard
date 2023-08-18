@@ -33,6 +33,7 @@ bg_printenv
 bg_setenv
 
 # Test results
+.cifuzz*/
 tools/tests/test_partitions
 tools/tests/test_environment
 tools/tests/test_api
@@ -84,7 +85,7 @@ Makefile.in
 .deps/
 m4/libtool.m4
 m4/lt*
-version.h
+/version.h
 libtool
 .libs
 *.pc
